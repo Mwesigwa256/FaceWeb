@@ -9,7 +9,7 @@ function App() {
   return <Router root={MainLayout}>
       <Route path="/" component={() => <HomePage />} />
       <Route path="/about" component={() => <AboutPage />} />
-      <Route path="/show" component={()=> <ShowsPage/>} />
+      <Route path="/shows" component={()=> <ShowsPage/>} />
       <Route path="/contact" component={()=> <ContactPage/>} />
     </Router>;
 }

@@ -1,8 +1,8 @@
 import { createSignal } from "solid-js";
 import FaceHome from "../assets/FaceHome.mp4";
-import FACEHITS from "../assets/FACEHITS  .mp4";
-import PRESSPLAY from "../assets/PRESSPLAY.mp4";
-import RISEUP from "../assets/RISEUP.mp4";
+import FaceHits from "../assets/FaceHits.mp4";
+import Pressplay from "../assets/Pressplay.mp4";
+import RiseUp from "../assets/RiseUp.mp4";
 import COLLABS from "../assets/COLLABS.mp4";
 import { epg } from "../assets";
 
@@ -10,9 +10,9 @@ const ShowsPage = () => {
   const [activeIndex, setActiveIndex] = createSignal<number | null>(null);
 
   const shows = [
-    { title: "Face Hits", video: FACEHITS },
-    { title: "Press Play", video: PRESSPLAY },
-    { title: "Rise Up", video: RISEUP },
+    { title: "Face Hits", video: FaceHits },
+    { title: "Press Play", video: Pressplay },
+    { title: "Rise Up", video: RiseUp },
     { title: "102 Collabs", video: COLLABS },
   ];
 

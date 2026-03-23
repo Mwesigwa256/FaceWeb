@@ -58,7 +58,7 @@ const Navbar = () => {
       <div class="flex gap-6 mx-auto">
         <a href="/" class="hover:text-orange-500 font-bold text-xl">Home</a>
         <a href="/about" class="hover:text-orange-500 font-bold text-xl">About</a>
-        <a href="/blog" class="hover:text-orange-500 font-bold text-xl">Shows</a>
+        <a href="/shows" class="hover:text-orange-500 font-bold text-xl">Shows</a>
         <a href="/contact" class="hover:text-orange-500 font-bold text-xl">Contact Us</a>
       </div>
     </div>
